@@ -29,7 +29,8 @@ def make_operation(operator=None, *args):
         elif operator == '%':
             res -= args[i]
     print(res)
+    print("result")
     return res
 
 
-make_operation('+', 5, 5, 2.5, 7)
+make_operation('-', 5, 5, 2.5, 7)
