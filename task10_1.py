@@ -7,6 +7,7 @@ statement to catch the error. What happens if you change oops to raise
 KeyError instead of IndexError?
 """
 
+
 def oops(index):
     a = ['a', 'b', 'c', 'd', 'e']
     b = {1: 'aa', 2: 'bb', 3: 'cc'}
